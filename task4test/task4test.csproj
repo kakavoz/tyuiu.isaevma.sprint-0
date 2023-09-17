@@ -5,11 +5,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{B895B92E-7ABC-48F2-8AC3-A56F48BAE3D5}</ProjectGuid>
+    <ProjectGuid>{434E6741-70C6-418F-BD14-9B8653E4B78A}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>task2test</RootNamespace>
-    <AssemblyName>task2test</AssemblyName>
+    <RootNamespace>task4test</RootNamespace>
+    <AssemblyName>task4test</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -56,9 +56,9 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\test2lib\task2lib.csproj">
-      <Project>{a73b48a1-70a2-47e4-9990-4c2e13bab276}</Project>
-      <Name>task2lib</Name>
+    <ProjectReference Include="..\task4lib\task4lib.csproj">
+      <Project>{435573ab-62f3-48bc-848e-96d3f8d7a38b}</Project>
+      <Name>task4lib</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />
