@@ -6,7 +6,15 @@ using System.Threading.Tasks;
 
 namespace test2lib
 {
-    public class Class1
+    public class DataService
     {
+        public static string GetMessage(string name)
+        {
+            return $"привет, {name}";
+
+
+
+        }
+
     }
 }
