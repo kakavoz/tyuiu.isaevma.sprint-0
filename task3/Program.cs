@@ -3,19 +3,19 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using test2lib;
+using task3lib;
 
-namespace task2
+
+namespace task3
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(DataService.GetMessage("максим"));
+        
+            Console.WriteLine(DataService.Sum(7, 7));
             Console.ReadKey();
 
-
-          
         }
     }
 }
